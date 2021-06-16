@@ -12,4 +12,9 @@ RUN pip install -r requirements.txt
 
 EXPOSE 5500
 
-CMD ["python", "./"]
+CMD [
+    "python", "./",
+    "--db default",
+    "--db-host 0.0.0.0",
+    "--collection questions"
+]
