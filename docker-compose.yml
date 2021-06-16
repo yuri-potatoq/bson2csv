@@ -1,6 +1,13 @@
 version: '3.3'
 
 services:
+  tool:
+    build: .
+    networks:
+      - vpcbr
+    environment:
+      MONGO_HOST: 10.5.0.3
+
   mongo:
     image: mongo:3
     restart: always
