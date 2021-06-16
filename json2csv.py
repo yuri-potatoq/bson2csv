@@ -71,7 +71,7 @@ with QuestionParser(db_name='sea-point') as parser:
     field_names = [
         'Nota',
         'Avaliação',
-        'Por que você escolheu a SEA TELECOM?',
+        'Por que você escolheu?',
         'outros-1',
         'Oque mais você gostou?',
         'outros-2',
