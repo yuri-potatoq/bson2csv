@@ -13,7 +13,7 @@ RUN pip install -r requirements.txt
 EXPOSE 5500
 
 CMD [
-    "python", "./",
+    "python", "./json2csv",
     "--db default",
     "--db-host 0.0.0.0",
     "--collection questions"
